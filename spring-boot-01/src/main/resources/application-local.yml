@@ -1,0 +1,11 @@
+server:
+  port: 40001
+spring:
+  application:
+    name: spring-boot-01
+  main:
+    allow-bean-definition-overriding: true
+log:
+  filter-exclude-pattern: (/download[a-zA-Z_]*|/actuator/prometheus)
+
+
